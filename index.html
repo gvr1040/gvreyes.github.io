@@ -1,68 +1,543 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Gray's Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        h1, h2 {
-            color: #555;
-        }
-        .section {
-            background: white;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        .contact {
-            margin-bottom: 10px;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gray Reyes · Cybersecurity Student</title>
+<meta name="description" content="Gray Reyes, a Cybersecurity student at RIT (Political Science minor) seeking a Summer 2027 co-op. Projects, leadership, and life beyond the resume.">
+<meta property="og:title" content="Gray Reyes · Cybersecurity Student">
+<meta property="og:description" content="Cybersecurity student at RIT seeking a Summer 2027 co-op in network security and threat detection.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛡️</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-    <h1>Gray's Portfolio</h1>
+<nav class="site-nav">
+  <div class="wrap">
+    <a href="#top" class="brand">Gray<span>.</span>Reyes</a>
+    <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#current">Current</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#leadership">Leadership</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="hazard"></div>
 
-    <div class="section">
-        <h2>Contact</h2>
-        <p class="contact">Email: gray@example.com</p>
-        <p class="contact">GitHub: <a href="https://github.com/gvr1040" target="_blank">gray</a></p>
-        <p class="contact">LinkedIn: <a href="www.linkedin.com/in/gray-reyes-808a53330" target="_blank">gray</a></p>
+<header class="hero" id="top">
+  <div class="wrap">
+    <div class="hero-photo">
+      <img src="assets/img/headshot.jpg" alt="Gray Reyes">
     </div>
-
-    <div class="section">
-        <h2>About Me</h2>
-        <p>I'm Gray, Cybersecurity major at RIT seeking a Co-op/Internship for summer 2026.</p>
+    <div class="hero-text">
+      <p class="terminal-line">gray@rit:~$ whoami<span class="cursor">▍</span></p>
+      <p class="eyebrow">Open to Summer 2027 Co-ops</p>
+      <h1>Hi, I'm Gray Reyes.</h1>
+      <p class="role">Cybersecurity Student @ RIT · Minor in Political Science</p>
+      <p class="blurb">
+        I like building things and breaking things about equally. Right now that means deploying
+        honeypots to study attackers and geeking out over how policy and international relations
+        shape the security world. I'm currently looking for a Summer 2027 co-op in network
+        security, threat detection, and security monitoring.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-solid" href="assets/resume/Gray-Reyes-Resume.pdf" target="_blank" rel="noopener">Download Resume</a>
+        <a class="btn btn-ghost" href="https://github.com/gvr1040" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn btn-ghost" href="https://www.linkedin.com/in/gray-reyes1040" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn btn-ghost" href="mailto:gvr1040@g.rit.edu">Email Me</a>
+      </div>
     </div>
+  </div>
+</header>
 
-    <div class="section">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML, CSS, JavaScript</li>
-            <li>Python, Java</li>
-            <li>React, Node.js</li>
-            <li>Git, GitHub</li>
-        </ul>
+<main>
+
+  <section id="about">
+    <div class="wrap">
+      <p class="eyebrow reveal">About</p>
+      <h2 class="reveal">A little bit security, a little bit whimsy</h2>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm a Cybersecurity major at the Rochester Institute of Technology, minoring in
+            Political Science. I like the way policy and geopolitics connect back to the
+            technical side of security, and I'm always looking for the overlap between the two.
+          </p>
+          <p>
+            Right now that shows up as an AWS honeypot I'm building to study attacker behavior
+            and Capture the Flag rounds with RITSEC's Blue/Red SIEM group. I also spent a while
+            mentoring freshmen through Women in Computing. When I'm not deep in a lab or a
+            spreadsheet of IOCs,
+            I'm probably co-running events for the Joy and Whimsy Club, helping a friend shoot a
+            short film, or getting recruited to playtest whatever game a friend just finished.
+          </p>
+        </div>
+        <div class="fact-card reveal">
+          <dl>
+            <dt>Based in</dt><dd>New Jersey / Rochester, NY</dd>
+            <dt>Studying</dt><dd>B.S. Cybersecurity</dd>
+            <dt>Minor</dt><dd>Political Science</dd>
+            <dt>Graduating</dt><dd>May 2028</dd>
+            <dt>Looking for</dt><dd>Summer 2027 Co-op</dd>
+            <dt>Languages</dt><dd>English / Spanish</dd>
+            <dt>Honors</dt><dd>Dean's List, Spring 2026</dd>
+          </dl>
+        </div>
+      </div>
     </div>
+  </section>
 
-    <div class="section">
-        <h2>Projects</h2>
-        <ul>
-            <li><strong>Project 1:</strong> <a href="https://github.com/gvr1040/women_in_stem" target="_blank">Breaking Bias Game</a> – A demo game to show the challenges women in stem face.</li>
-        </ul>
+  <div class="hazard"></div>
+
+  <section id="current">
+    <div class="wrap">
+      <p class="eyebrow reveal">Currently Working On</p>
+      <h2 class="reveal">Active Operations</h2>
+      <p class="section-intro reveal">What I've got in motion right now, on top of classes.</p>
+      <div class="leader-list">
+
+        <div class="leader-card reveal">
+          <h3>RIT Foundational Leadership Certificate Program</h3>
+          <span class="date">Fall 2026 – Present <span class="status active" style="margin-left:6px;">In Progress</span></span>
+          <p class="role">Participant</p>
+          <ul>
+            <li>Selected into RIT's next-level leadership development track, building on the Momentum I certification I completed in 2024.</li>
+            <li>Working through coursework and portfolio milestones focused on communication, team leadership, and initiative.</li>
+          </ul>
+        </div>
+
+        <div class="leader-card reveal">
+          <h3>RIT Cybersecurity Club (RITSEC): Azure Mentorship Group</h3>
+          <span class="date">Fall 2026 – Present <span class="status active" style="margin-left:6px;">In Progress</span></span>
+          <p class="role">Mentee</p>
+          <ul>
+            <li>Joined a new RITSEC mentorship group focused on Microsoft Azure, learning cloud architecture and security fundamentals hands-on.</li>
+            <li>Working alongside upperclassmen mentors to stand up Azure environments and explore cloud security practices.</li>
+          </ul>
+        </div>
+
+      </div>
     </div>
+  </section>
 
-    <div class="section">
-        <h2>Experience</h2>
-        <p><strong>Cybersecurity intern</strong> – 2025</p>
-        <p>...</p>
+  <div class="hazard"></div>
+
+  <section id="education" style="background:var(--surface-alt)">
+    <div class="wrap">
+      <p class="eyebrow reveal">Education</p>
+      <h2 class="reveal">Rochester Institute of Technology</h2>
+      <div class="edu-card reveal">
+        <div class="row">
+          <div>
+            <h3>Bachelor of Science in Cybersecurity</h3>
+            <p class="degree">Minor in Political Science</p>
+            <p class="place">Rochester, New York</p>
+          </div>
+          <span class="date">Expected May 2028</span>
+        </div>
+        <div class="course-chips">
+          <span class="chip">🏅 Dean's List · Spring 2026</span>
+        </div>
+        <div class="project-links" style="margin-top:14px;">
+          <a href="assets/resume/Deans-List-Spring-2026.pdf" target="_blank" rel="noopener">View Dean's List certificate →</a>
+        </div>
+      </div>
     </div>
+  </section>
 
+  <div class="hazard"></div>
+
+  <section id="projects">
+    <div class="wrap">
+      <p class="eyebrow reveal">Projects</p>
+      <h2 class="reveal">Things I've built</h2>
+      <p class="section-intro reveal">A mix of security research, hackathon builds, and community-facing work.</p>
+      <div class="project-grid">
+
+        <article class="project-card reveal">
+          <div class="top">
+            <h3>AWS Cloud Honeypot</h3>
+            <span class="status active">In Progress</span>
+          </div>
+          <p class="date-line">Sept 2025 – Present · Personal Project</p>
+          <p>I designed and deployed a decoy system that mimics vulnerable environments to observe, log, and
+             analyze malicious activity. I'm using it to monitor attacker behavior and traffic patterns in AWS
+             and document common attack techniques and indicators of compromise, and I wrote a companion
+             Python script that parses syslog for failed SSH logins, tallies attempts by IP, and geolocates
+             repeat offenders.</p>
+          <div class="tags"><span class="tag">AWS</span><span class="tag">SIEM</span><span class="tag">Threat Intel</span><span class="tag">Python</span></div>
+          <div class="project-links">
+            <a href="assets/scripts/attacker_report.py" target="_blank" rel="noopener">View analysis script →</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="top">
+            <h3>Breaking Bias</h3>
+            <span class="status done">Complete</span>
+          </div>
+          <p class="date-line">Personal Project · MakeCode Arcade</p>
+          <p>A playable demo game I built about the challenges women in STEM face, meant to spark
+             conversation rather than just be played once and forgotten.</p>
+          <div class="tags"><span class="tag">Game Dev</span><span class="tag">MakeCode Arcade</span></div>
+          <div class="project-links">
+            <a href="https://arcade.makecode.com/S17014-24598-20876-61334" target="_blank" rel="noopener">Play the game →</a>
+            <a href="https://github.com/gvr1040/women_in_stem" target="_blank" rel="noopener">View code →</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="top">
+            <h3>AwareLink</h3>
+            <span class="status done">Complete</span>
+          </div>
+          <p class="date-line">March 2025 · WiCHacks Hackathon (First Hackathon)</p>
+          <p>A confidential, secure STD notification service that lets people anonymously notify
+             partners about their health status. I worked full-stack, both front-end and back-end,
+             alongside teammates Alicia Tesch and Abigail Eckstein, and we focused on secure form
+             submissions and an accessible, user-friendly UI under hackathon time pressure.</p>
+          <div class="tags"><span class="tag">PHP</span><span class="tag">HTML/CSS</span><span class="tag">Accessibility</span><span class="tag">Full-Stack</span></div>
+          <div class="project-links">
+            <a href="https://github.com/gvr1040/awarelink" target="_blank" rel="noopener">View code →</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="top">
+            <h3>Sysadmin &amp; Networking Scripts</h3>
+            <span class="status done">Complete</span>
+          </div>
+          <p class="date-line">NSSA 221 · System Administration I · Python</p>
+          <p>A set of Python CLI tools I built for coursework and still use regularly: a system
+             report generator (host, network, OS, disk, CPU, and memory info), a symbolic-link
+             manager for creating, deleting, and auditing links, and a network connectivity tester
+             for checking the gateway, local and remote ping, and DNS resolution.</p>
+          <div class="tags"><span class="tag">Python</span><span class="tag">Linux</span><span class="tag">Networking</span><span class="tag">Sys Admin</span></div>
+          <div class="project-links">
+            <a href="assets/scripts/system_report.py" target="_blank" rel="noopener">System report →</a>
+            <a href="assets/scripts/shortcut.py" target="_blank" rel="noopener">Symlink manager →</a>
+            <a href="assets/scripts/ping_test.py" target="_blank" rel="noopener">Network tester →</a>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/gvr1040/nssa221_scripts" target="_blank" rel="noopener">GitHub repo →</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="top">
+            <h3>Data for Profit</h3>
+            <span class="status done">Complete</span>
+          </div>
+          <p class="date-line">Spring 2026 · PHIL 102, Group Research Paper</p>
+          <p>I co-authored a research paper examining the ethics of personal data collection,
+             covering data brokers, personalized advertising, and location tracking, through the
+             lens of Kantian deontology and utilitarianism. I wrote the sections on personalized
+             advertising, location tracking, and privacy protections, plus a case study, and edited
+             the final draft.</p>
+          <div class="tags"><span class="tag">Privacy Ethics</span><span class="tag">Policy</span><span class="tag">Research Writing</span></div>
+          <div class="project-links">
+            <a href="assets/resume/Data-for-Profit-Privacy-Ethics-Paper.pdf" target="_blank" rel="noopener">Read the paper →</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="top">
+            <h3>Cryptography Scavenger Hunt</h3>
+            <span class="status done">Complete</span>
+          </div>
+          <p class="date-line">March 2025 · Women in Computing, Women's History Month</p>
+          <p>I designed puzzles and cryptography challenges, including Caesar ciphers and pseudocode,
+             for a month-long Women in Computing event celebrating Women's History Month, meant to
+             get students engaged with foundational cybersecurity concepts.</p>
+          <div class="tags"><span class="tag">Cryptography</span><span class="tag">Event Design</span></div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="top">
+            <h3>Industry Engagement &amp; Networking</h3>
+            <span class="status done">Complete</span>
+          </div>
+          <p class="date-line">May – July 2025</p>
+          <p>I sat in on cybersecurity and cloud computing discussions with Abitronix, Claro, and
+             other companies, digging into cloud infrastructure, pricing models, and security
+             practices to understand how cybersecurity actually plays out in industry.</p>
+          <div class="tags"><span class="tag">Cloud Security</span><span class="tag">Industry Research</span></div>
+        </article>
+
+        <div class="more-projects-card reveal">
+          <h3>More on the way</h3>
+          <p>I'm actively building out my GitHub with new security tooling and CTF write-ups.
+             Check back soon, or take a look at what's already public.</p>
+          <div class="project-links" style="margin-top:6px;">
+            <a href="https://github.com/gvr1040" target="_blank" rel="noopener">github.com/gvr1040 →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="hazard"></div>
+
+  <section id="skills" style="background:var(--surface-alt)">
+    <div class="wrap">
+      <p class="eyebrow reveal">Skills</p>
+      <h2 class="reveal">Technical Toolkit</h2>
+      <div class="skills-grid">
+        <div class="skill-group reveal">
+          <h3>Networking &amp; Security</h3>
+          <ul>
+            <li>Wireshark</li><li>Nmap</li><li>pfSense</li><li>Graylog (SIEM)</li><li>Wazuh (EDR)</li>
+          </ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3>Systems</h3>
+          <ul>
+            <li>Windows Server / AD</li><li>DNS / DHCP</li><li>macOS</li><li>Linux (Rocky, Ubuntu, Kali)</li>
+          </ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3>Cloud &amp; Virtualization</h3>
+          <ul>
+            <li>AWS</li><li>VMware Workstation Pro</li><li>VirtualBox</li>
+          </ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3>Languages</h3>
+          <ul>
+            <li>Java</li><li>Python</li><li>C / C++</li><li>SQL</li><li>x86 Assembly</li><li>HTML/CSS</li><li>JavaScript</li><li>PHP</li>
+          </ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3>Scripting &amp; Tools</h3>
+          <ul>
+            <li>Bash</li><li>Zsh</li><li>PowerShell</li><li>Git / GitHub</li><li>VS Code</li>
+          </ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3>Other</h3>
+          <ul>
+            <li>Bilingual: English / Spanish</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="hazard"></div>
+
+  <section id="leadership">
+    <div class="wrap">
+      <p class="eyebrow reveal">Leadership &amp; Volunteering</p>
+      <h2 class="reveal">Clubs I show up for</h2>
+      <p class="section-intro reveal">Most of my favorite work happens outside of class: mentoring, organizing, and building community.</p>
+      <div class="leader-list">
+
+        <div class="leader-card reveal">
+          <h3>Joy and Whimsy Club</h3>
+          <span class="date">April 2025 – Present</span>
+          <p class="role">Co-Founder · Vice President, Web &amp; Community Coordinator</p>
+          <ul>
+            <li>Assisting in establishing a new student organization to promote creativity and connection on campus.</li>
+            <li>Managing online community engagement through digital platforms and events.</li>
+            <li>Plan and coordinate social and collaborative events to build connections among students.</li>
+            <li>Design digital flyers and promotional materials to advertise events and increase participation.</li>
+            <li>Grew our Discord community to about 511 members.</li>
+          </ul>
+          <div class="project-links" style="margin-top:8px;">
+            <a href="https://www.instagram.com/rit.jawc/" target="_blank" rel="noopener">@rit.jawc on Instagram →</a>
+          </div>
+        </div>
+
+        <div class="leader-card reveal">
+          <h3>Women in Computing (WiC)</h3>
+          <span class="date">August 2024 – January 2026</span>
+          <p class="role">Volunteer Lead · Mentor</p>
+          <ul>
+            <li>Organized weekly meetings and contributed to the Events Committee to support club coordination and engagement.</li>
+            <li>Co-led <span class="event-tip" data-tip="An accepted-students day/night with a Q&amp;A panel and tech activities for admitted students.">WiC AfterHours</span> as Volunteer Lead, coordinating a volunteer schedule, sign-in and setup, swag, and icebreakers alongside fellow leads and the WiC Outreach Head.</li>
+            <li>Volunteered as Volunteer Lead at <span class="event-tip" data-tip="A hackathon built for kids.">ROCgirl Hacks</span>, <span class="event-tip" data-tip="Girl Scouts visited campus for lessons on tech and computing.">Girl Scout Badge Day</span>, and <span class="event-tip" data-tip="Taught cybersecurity skills like password safety and managing your online presence.">Cybersecurity Badge Day</span>, overseeing logistics and participation.</li>
+            <li>Helped run <span class="event-tip" data-tip="Welcomed incoming freshmen to learn about Women in Computing through hands-on activities.">WiC Orientation</span> for incoming freshmen.</li>
+            <li>Mentored incoming freshmen individually in academic, professional, and personal development.</li>
+          </ul>
+        </div>
+
+        <div class="leader-card reveal">
+          <h3>RIT Cybersecurity Club (RITSEC)</h3>
+          <span class="date">August 2024 – Present</span>
+          <p class="role">Active Member · Mentee</p>
+          <ul>
+            <li>Member of the Blue/Red SIEM mentorship group, exploring defensive and offensive security operations.</li>
+            <li>Participating in a systems reverse engineering mentorship, learning to analyze software, hardware, and protocols.</li>
+            <li>Participating in Capture the Flag (CTF) challenges and physical security interest group activities with RITSEC.</li>
+            <li>Also a member of Women in CyberSecurity (WiCyS), competing in their CTF as well.</li>
+          </ul>
+        </div>
+
+        <div class="leader-card reveal">
+          <h3>Momentum I: Leadership Certification</h3>
+          <span class="date">October 2024</span>
+          <p class="role">Completed</p>
+          <ul>
+            <li>Portfolio-based leadership development program focused on communication, collaboration, and initiative.</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="hazard"></div>
+
+  <section id="gallery" style="background:var(--surface-alt)">
+    <div class="wrap">
+      <p class="eyebrow reveal">Gallery</p>
+      <h2 class="reveal">Life beyond the resume</h2>
+      <p class="section-intro reveal">The stuff that doesn't fit neatly into a bullet point. Click any photo to zoom in.</p>
+      <div class="gallery-grid">
+
+        <figure class="gallery-item reveal">
+          <div class="gallery-photo" data-full="assets/img/wic-trophy.jpg" data-alt="Gray holding a Member of the Week trophy">
+            <img src="assets/img/wic-trophy.jpg" alt="Gray holding a small trophy in the WiC office" loading="lazy">
+          </div>
+          <figcaption class="gallery-caption">
+            <strong>🏆 Voted Member of the Week</strong>
+            Still not entirely sure what I did to deserve this one, but I'll take the trophy.
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item reveal">
+          <div class="gallery-photo" data-full="assets/img/wichacks-tiger.jpg" data-alt="Gray and friends posing with RIT's tiger mascot at WiCHacks">
+            <img src="assets/img/wichacks-tiger.jpg" alt="Gray and friends posing with RIT's tiger mascot at WiCHacks" loading="lazy">
+          </div>
+          <figcaption class="gallery-caption">
+            <strong>WiCHacks, tiger cameo included</strong>
+            Hackathon weekend with RIT's own mascot crashing the photo. Purple shirts, zero regrets.
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item reveal">
+          <div class="gallery-photo" data-full="assets/img/wic-hallway.jpg" data-alt="Gray and the WiC volunteer team walking to an event, giving thumbs up">
+            <img src="assets/img/wic-hallway.jpg" alt="Gray and the WiC volunteer team walking to an event" loading="lazy">
+          </div>
+          <figcaption class="gallery-caption">
+            <strong>Volunteering for WiC</strong>
+            Marching the squad to setup, thumbs up because we made it on time.
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item reveal">
+          <div class="gallery-photo" data-full="assets/img/wic-office.jpg" data-alt="Gray relaxing with WiC members in the WiC office">
+            <img src="assets/img/wic-office.jpg" alt="Gray relaxing with WiC members in the WiC office" loading="lazy">
+          </div>
+          <figcaption class="gallery-caption">
+            <strong>Decompressing in the WiC office</strong>
+            Between events, this couch has heard a lot of complaining and a lot of laughing.
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item reveal">
+          <div class="gallery-photo" data-full="assets/img/wichacks-halloween.jpg" data-alt="Gray mentoring at a Halloween-themed WiC mentorship craft night">
+            <img src="assets/img/wichacks-halloween.jpg" alt="Gray mentoring at a Halloween-themed WiC mentorship craft night" loading="lazy">
+          </div>
+          <figcaption class="gallery-caption">
+            <strong>Mentorship night, Halloween edition</strong>
+            Candy-corn pumpkins, a hundred toothpicks, and a timer that felt way too short. Just one of my regular WiC mentorship sessions.
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item reveal">
+          <div class="gallery-photo" data-full="assets/img/wic-tutoring.jpg" data-alt="Gray helping students in a computer lab during a WiC outreach event">
+            <img src="assets/img/wic-tutoring.jpg" alt="Gray helping students in a computer lab during a WiC outreach event" loading="lazy">
+          </div>
+          <figcaption class="gallery-caption">
+            <strong>Lab-side mentoring</strong>
+            Helping younger students get unstuck during a WiC outreach event.
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item reveal">
+          <div class="gallery-photo" data-full="assets/img/network-rack.jpg" data-alt="A wired networking rack in an RIT lab">
+            <img src="assets/img/network-rack.jpg" alt="A wired networking rack in an RIT lab" loading="lazy">
+          </div>
+          <figcaption class="gallery-caption">
+            <strong>Behind the rack</strong>
+            A sample of the hands-on side of the major: tracing cable runs is at least half the job.
+          </figcaption>
+        </figure>
+
+
+        <figure class="gallery-item reveal">
+          <div class="gallery-photo" data-full="assets/img/jawc-eboard-slide.png" data-alt="Gray's Meet the Eboard slide for Joy and Whimsy Club, introducing her as Vice President">
+            <img src="assets/img/jawc-eboard-slide.png" alt="Gray's Meet the Eboard slide for Joy and Whimsy Club, introducing her as Vice President" loading="lazy">
+          </div>
+          <figcaption class="gallery-caption">
+            <strong>Joy and Whimsy Club shenanigans</strong>
+            Co-founding a club whose entire mission is "make campus a little more fun" was one of my better ideas.
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item reveal">
+          <div class="gallery-photo placeholder">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 17l-5-5-4 4-3-3-6 6"/></svg>
+            <span>Photo coming soon</span>
+          </div>
+          <figcaption class="gallery-caption">
+            <strong>Behind the scenes of a friend's short film</strong>
+            Helped a friend bring their school short film to life. Very much off-camera, very much invested.
+          </figcaption>
+        </figure>
+
+        <figure class="gallery-item reveal">
+          <div class="gallery-photo placeholder">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 17l-5-5-4 4-3-3-6 6"/></svg>
+            <span>Photo coming soon</span>
+          </div>
+          <figcaption class="gallery-caption">
+            <strong>Unofficial game playtester</strong>
+            Friends' passion projects get sent my way to break before anyone else sees them.
+          </figcaption>
+        </figure>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="hazard"></div>
+
+  <section id="contact" class="contact-section">
+    <div class="wrap">
+      <h2 class="reveal">Let's talk.</h2>
+      <p class="reveal">Looking for a Summer 2027 co-op or internship in network security, threat detection,
+         or security monitoring. Reach out any time.</p>
+      <div class="contact-actions reveal">
+        <a class="btn btn-solid" href="mailto:gvr1040@g.rit.edu">gvr1040@g.rit.edu</a>
+        <a class="btn btn-ghost" href="https://github.com/gvr1040" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn btn-ghost" href="https://www.linkedin.com/in/gray-reyes1040" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">Built by Gray Reyes.</div>
+</footer>
+
+<div class="lightbox">
+  <button class="lightbox-close" aria-label="Close">&times;</button>
+  <img src="" alt="">
+</div>
+
+<script src="assets/js/main.js"></script>
 </body>
 </html>
